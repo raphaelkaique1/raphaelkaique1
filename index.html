@@ -81,7 +81,7 @@
         <main>
         <section id="summary">
             <h2 id="professional-summary">Resumo Profissional / Professional Summary</h2>
-            <p id="professional-presentation"><strong id="profession">Desenvolvedor Full Stack</strong> <strong id="professional-level">pleno</strong> com 4 anos de experiência em desenvolvimento de software. Especializado em JavaScript e seu ecossistema (TypeScript, Node.js, React, entre outros). Experiência em projetos complexos, com forte conhecimento em bancos de dados, servidores, APIs, integração de sistemas e arquitetura de software. Habilidade em ambientes colaborativos e metodologias ágeis, buscando sempre inovação e eficiência nos processos com o objetivo de entregar soluções escaláveis em ambientes de alta performance.</p>
+            <p id="professional-presentation"><strong id="profession">Desenvolvedor Full Stack</strong> <strong id="professional-level">pleno</strong> com <span id="xp"></span> anos de experiência em desenvolvimento de software. Especializado em JavaScript e seu ecossistema (TypeScript, Node.js, React, entre outros). Experiência em projetos complexos, com forte conhecimento em bancos de dados, servidores, APIs, integração de sistemas e arquitetura de software. Habilidade em ambientes colaborativos e metodologias ágeis, buscando sempre inovação e eficiência nos processos com o objetivo de entregar soluções escaláveis em ambientes de alta performance.</p>
         </section>
         <section id="skills">
             <h2 id="professional-skills">Habilidades / Skills</h2>
@@ -287,7 +287,7 @@
             </article>
             <article class="academic-background">
                 <h3 class="degree"><strong class="training">Curso Superior de Tecnologia em Mecatrônica Industrial</strong></h3>
-                <p class="formation"><strong class="academy">Universidade Pitágoras Unopar Anhanguera</strong>, concluído em Julho de 2024.</p>
+                <p class="formation"><strong class="academy">[Nome da Instituição] / [Institution Name]</strong>, concluído em Julho de 2024.</p>
             </article>
             <article class="academic-background">
                 <h3 class="degree"><strong class="training">Técnico em Mecânica Industrial</strong></h3>
@@ -398,12 +398,15 @@
     </main>
 
     <footer id="authorship">
-        <p id="copyright">&copy; 2024 Raphael Kaíque Dias Santos. All rights reserved.</p>
+        <p id="copyright">&copy; <span id="year"></span> Raphael Kaíque Dias Santos. All rights reserved.</p>
     </footer>
 
     <script>
         const year_start = 2020;
-        // contador de anos de experiência
+        const current_year = new Date().getFullYear();
+        const xp = current_year - year_start;
+        document.getElementById("xp").textContent = xp;
+        document.getElementById("year").textContent = current_year;
     </script>
 </body>
 </html>
