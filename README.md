@@ -3,7 +3,8 @@
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/raphaelkaique1)
+[![Replit](https://img.shields.io/badge/replit-%23fa8d11.svg?logo=replit&logoColor=white)](https://replit.com/@raphaelkaique1)
+[![Codepen](https://img.shields.io/badge/Codepen-%23111.svg?logo=codepen&logoColor=white)](https://codepen.io/raphaelkaique1)
 
 # 💻 Tech Stack:
 
