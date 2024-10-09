@@ -83,6 +83,9 @@
 [![](https://visitcount.itsvg.in/api?id=raphaelkaique1&icon=2&color=0)](https://visitcount.itsvg.in)
 
 ## 💰 You can help me by Donating
-[![₿itcoin](https://img.shields.io/badge/₿itcoin-%23fa8d11.svg?&logo=bitcoin&logoColor=white)](https://buymeacoffee.com/raphaelkaique1)
+[![₿itcoin](https://img.shields.io/badge/₿TC-%23fa8d11.svg?&logo=bitcoin&logoColor=white)](https://github.com/user-attachments/assets/020f7cb3-70b1-4192-b1d9-1c153c636911)
+[![Ethereum](https://img.shields.io/badge/ETH-%23111.svg?&logo=ethereum&logoColor=white)]()
+[![₿itcoin](https://img.shields.io/badge/USDT-%23111.svg?&logo=tether&logoColor=white)]()
+[![Pix](https://img.shields.io/badge/Pix-%23111.svg?&logo=pix&logoColor=white)](https://nubank.com.br/cobrar/j3p0m/6706a02c-1f43-4689-a177-3227dc884630)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
