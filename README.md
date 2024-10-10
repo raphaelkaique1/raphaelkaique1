@@ -1,5 +1,5 @@
 # 💫 About Me:
-💻 Full Stack Developer working in software development since 2020.<br>🔬 Specialized in JavaScript and its ecosystem (TypeScript, Node.js, Nest.js, React.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
+💻 Working in software development since 2020.<br>🔬 Specialized in JavaScript and its ecosystem (TypeScript, Node.js, Nest.js, React.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
 
 
 ## 🌐 Socials:
@@ -83,7 +83,7 @@
 [![](https://visitcount.itsvg.in/api?id=raphaelkaique1&icon=2&color=0)](https://visitcount.itsvg.in)
 
 ## 💰 You can help me by Donating
-[![Pix](https://img.shields.io/badge/Pix-%2323d968.svg?&logo=pix&logoColor=white)](https://nubank.com.br/cobrar/j3p0m/6706a02c-1f43-4689-a177-3227dc884630)
+[![PIX](https://img.shields.io/badge/PIX-%2323d968.svg?&logo=pix&logoColor=white)](https://nubank.com.br/cobrar/j3p0m/6706a02c-1f43-4689-a177-3227dc884630)
 [![Tether](https://img.shields.io/badge/USDT-%2323d968.svg?&logo=tether&logoColor=white)](https://github.com/user-attachments/assets/a1b94d92-58da-45fe-9d2e-20ceaec981ae)
 [![Ethereum](https://img.shields.io/badge/ETH-%23111.svg?&logo=ethereum&logoColor=white)](https://github.com/user-attachments/assets/85129e20-8c7f-4e4b-9776-3df71bfb7eff)
 [![₿itcoin](https://img.shields.io/badge/₿TC-%23fa8d11.svg?&logo=bitcoin&logoColor=white)](https://github.com/user-attachments/assets/020f7cb3-70b1-4192-b1d9-1c153c636911)
