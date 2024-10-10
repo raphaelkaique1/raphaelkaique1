@@ -46,25 +46,25 @@
 ![JWT](https://img.shields.io/badge/JWT-black?style=plastic&logo=JSON%20web%20tokens)
 ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=plastic&logo=socket.io&badgeColor=010101)
 
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=plastic&logo=terraform&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=plastic&logo=terraform&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazonwebservices&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=plastic&logo=google-cloud&logoColor=white)
-<br>![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white)
+<br>![Apache](https://img.shields.io/badge/Apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white)
 ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=plastic&logo=eclipsemosquitto&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=plastic&logo=rabbitmq&logoColor=white)
 <br>![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white)
-<br>![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=plastic&logo=kubernetes&logoColor=white)
-<br>![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=plastic&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=plastic&logo=sqlite&logoColor=white)
+<br>![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=plastic&logo=kubernetes&logoColor=white)
+<br>![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=plastic&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=plastic&logo=github&logoColor=white)
 
 ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=plastic&logo=web3.js&logoColor=white)
 
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=plastic&logo=jira&logoColor=white)
-<br>![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=plastic&logo=jira&logoColor=white)
+<br>![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white)
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=raphaelkaique1&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=raphaelkaique1&theme=tokyonight&hide_border=false)<br/>
