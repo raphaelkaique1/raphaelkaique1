@@ -1,6 +1,46 @@
 # 💫 About Me:
-💻 Working in software development since 2020.<br>🔬 Specialized in JavaScript and its ecosystem (TypeScript, Node.js, Nest.js, React.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
+🛠️ Working in software development since 2020.<br>🔬 Specialized in JavaScript and its ecosystem (TypeScript, Node.js, Nest.js, React.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
+```JS
+class Person {
+    constructor(name, career) {
+        this.name = name;
+        this.career = career;
+    }
 
+    eat() {
+        let food = "coffee";
+        console.log(`Drink ${food}`);
+    }
+
+    sleep() {
+        let time = 3;
+        console.log(`Rest for ${time} hours`);
+    }
+
+    code() {
+        let script = "ALWAYS";
+        console.log(`${script} build badass softwares`);
+    }
+
+    repeat() {
+        let regreat = false;
+        regreat === false ? console.log("ready for more") : console.log("learn from mistakes");
+    }    
+
+    life() {
+        let alive = true;
+        while(alive){
+            this.eat();
+            this.sleep();
+            this.code();
+            this.repeat();
+      } 
+    }
+}
+
+const dev = new Person("Raphael", "Full Stack");
+dev.life();
+```
 
 ## 🌐 Socials:
 [![Replit](https://img.shields.io/badge/replit-%23fa8d11.svg?logo=replit&logoColor=white)](https://replit.com/@raphaelkaique1)
