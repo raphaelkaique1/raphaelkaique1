@@ -25,7 +25,7 @@ class Person {
     repeat() {
         let regreat = false;
         regreat === false ? console.log("ready for more") : console.log("learn from mistakes");
-    }    
+    }
 
     life() {
         let alive = true;
@@ -34,7 +34,7 @@ class Person {
             this.sleep();
             this.code();
             this.repeat();
-      } 
+      }
     }
 }
 
