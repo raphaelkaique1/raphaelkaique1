@@ -24,8 +24,20 @@ class Person {
     }
 
     repeat() {
-        this.regreat === false ? console.log("ready for more") : console.log("learn from mistakes");
-    }    
+        let xp
+        this.regreat === false ? xp = 1 : xp = 0;
+
+        switch(xp) {
+            case 0:
+                console.log("learn from mistakes");
+                break;
+            case 1:
+                console.log("ready for more");
+                break;
+            default:
+                break;
+        }
+    }
 
     life() {
         while(this.alive){
