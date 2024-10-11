@@ -2,26 +2,25 @@
 🛠️ Working in software development since 2020.<br>🔬 Specialized in JavaScript and its ecosystem (TypeScript, Node.js, Nest.js, React.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
 ```JS
 class Person {
-    constructor(name, career, alive, regreat) {
+    constructor(name, career, alive, regreat, food, time) {
         this.name = name;
         this.career = career;
         this.alive = alive;
         this.regreat = regreat;
+        this.food = food;
+        this.time = time;
     }
 
     eat() {
-        let food = "coffee";
-        console.log(`Drink ${food}`);
+        console.log(`Drink ${this.food}`);
     }
 
     sleep() {
-        let time = 3;
-        console.log(`Rest for ${time} hours`);
+        console.log(`Rest for ${this.time} hours`);
     }
 
     code() {
-        let script = "ALWAYS";
-        console.log(`${script} build badass softwares`);
+        console.log(`${this.career} always building badass softwares`);
     }
 
     repeat() {
@@ -34,11 +33,11 @@ class Person {
             this.sleep();
             this.code();
             this.repeat();
-      }
+        }
     }
 }
 
-const dev = new Person("Raphael", "Full Stack", true, false);
+const dev = new Person("Raphael", "Full Stack", true, false, "coffee", 3);
 dev.life();
 ```
 
