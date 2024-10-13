@@ -24,15 +24,15 @@ class Person {
     }
 
     repeat() {
-        let consequences = {xp: 2, yes: "Learn from mistakes", no: "Ready for more"};
+        let consequences = {xp: 2, bad: "Learn from mistakes", good: "Ready for more"};
         this.regreat === false ? consequences.xp++ : consequences.xp--;
 
         switch(consequences.xp) {
             case 1:
-                console.log(consequences.yes);
+                console.log(consequences.bad);
                 break;
             case 3:
-                console.log(consequences.no);
+                console.log(consequences.good);
                 break;
             default:
                 break;
