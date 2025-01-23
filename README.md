@@ -130,6 +130,7 @@ dev.life();
 
 ---
 ![](https://visitcount.itsvg.in/api?id=raphaelkaique1&icon=2&color=0)
+[![](https://visitcount.itsvg.in/api?id=raphaelkaique1&icon=0&color=0)](https://visitcount.itsvg.in)
 
 ## 💰 You can help me by Donating
 [![PIX](https://img.shields.io/badge/PIX-%2323d968.svg?&logo=pix&logoColor=white)](https://nubank.com.br/cobrar/j3p0m/6706a02c-1f43-4689-a177-3227dc884630)
