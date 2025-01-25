@@ -1,8 +1,15 @@
 # 💫 About Me:
-🛠️ Working in software development since 2020.<br>🔬 Specialized in JavaScript and its ecosystem (TypeScript, Node.js, Nest.js, React.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
-```JS
+🛠️ Working in software development since 2020.<br>🔬 Specialized in TypeScript and its ecosystem (JavaScript, Node.js, Express.js, Nest.js, React.js, Vue.js, Angular.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
+```TS
 class Person {
-    constructor(name, career, alive, regreat, food, time) {
+    name: string;
+    career: string;
+    alive: boolean;
+    regreat: boolean;
+    food: string;
+    time: number;
+
+    constructor(name: string, career: string, alive: boolean, regreat: boolean, food: string, time: number) {
         this.name = name;
         this.career = career;
         this.alive = alive;
@@ -11,23 +18,23 @@ class Person {
         this.time = time;
     }
 
-    eat() {
+    eat(): void {
         console.log(`Drink ${this.food}`);
     }
 
-    sleep() {
+    sleep(): void {
         console.log(`Rest for ${this.time} hours`);
     }
 
-    code() {
+    code(): void {
         console.log(`${this.career} always building badass softwares`);
     }
 
-    repeat() {
-        let consequences = {xp: 2, bad: "Learn from mistakes", good: "Ready for more"};
+    repeat(): void {
+        let consequences = { xp: 2, bad: "Learn from mistakes", good: "Ready for more" };
         this.regreat === false ? consequences.xp++ : consequences.xp--;
 
-        switch(consequences.xp) {
+        switch (consequences.xp) {
             case 1:
                 console.log(consequences.bad);
                 break;
@@ -39,8 +46,8 @@ class Person {
         }
     }
 
-    life() {
-        while(this.alive){
+    life(): void {
+        while (this.alive) {
             this.eat();
             this.sleep();
             this.code();
