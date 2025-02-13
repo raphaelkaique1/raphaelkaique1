@@ -1,5 +1,8 @@
 # 💫 About Me:
-🛠️ Working in software development since 2020.<br>🔬 Specialized in TypeScript and its ecosystem (JavaScript, Node.js, Express.js, Nest.js, React.js, Vue.js, Angular.js, Next.js, among others).<br>⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
+🛠️ Working in software development since 2020.<br>
+🔬 Specialized in TypeScript and its ecosystem (JavaScript, Node.js, Express.js, Nest.js, React.js, Vue.js, Angular.js, Next.js, among others).<br>
+⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>
+🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
 ```TS
 class Person {
     name: string;
@@ -129,15 +132,10 @@ dev.life();
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=raphaelkaique1&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4)
 
-<!--### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)-->
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=raphaelkaique1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
 
----
-![](https://visitcount.itsvg.in/api?id=raphaelkaique1&icon=2&color=0)
-[![](https://visitcount.itsvg.in/api?id=raphaelkaique1&icon=0&color=0)](https://visitcount.itsvg.in)
 
 ## 💰 You can help me by Donating
 [![PIX](https://img.shields.io/badge/PIX-%2323d968.svg?&logo=pix&logoColor=white)](https://nubank.com.br/cobrar/j3p0m/6706a02c-1f43-4689-a177-3227dc884630)
@@ -145,4 +143,6 @@ dev.life();
 [![Ethereum](https://img.shields.io/badge/ETH-%23111.svg?&logo=ethereum&logoColor=white)](https://github.com/user-attachments/assets/85129e20-8c7f-4e4b-9776-3df71bfb7eff)
 [![₿itcoin](https://img.shields.io/badge/₿TC-%23fa8d11.svg?&logo=bitcoin&logoColor=white)](https://github.com/user-attachments/assets/020f7cb3-70b1-4192-b1d9-1c153c636911)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
+<div align="center">Copyright &copy; 2025 <a href="https://github.com/raphaelkaique1">Raphael Kaíque Dias Santos</a></div>

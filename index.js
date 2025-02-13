@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
-<!--
-<html lang="de" dir="ltr">
-<html lang="es-LA" dir="ltr">
-<html lang="fr-FR" dir="ltr">
-<html lang="it" dir="ltr">
-<html lang="pt-BR" dir="ltr">
-<html lang="ru" dir="ltr">
--->
+    <!--
+        lang="de" dir="ltr"
+        lang="es-LA" dir="ltr"
+        lang="fr-FR" dir="ltr"
+        lang="it" dir="ltr"
+        lang="pt-BR" dir="ltr"
+        lang="ru" dir="ltr"
+        https://raphaelkaique1.github.io/raphaelkaique1/
+    -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Resume of Raphael Kaíque Dias Santos, professional software developer with experience in full stack development.">
     <title>Raphael K. Dias Santos</title>
     <style>
-        body {
+        html, body {
             font-family: Arial, sans-serif;
-            max-width: 2480px;
-            max-height: 3510px;
-            margin: 15px;
+            max-width: 100vw;
+            max-height: 100vh;
+            margin: 0;
         }
 
         .skills, .experience, .education {
-            margin-bottom: 20px;
+            margin-bottom: 1rem;
         }
 
         /*.levels {
@@ -30,8 +31,8 @@
         }*/
 
         .level {
-            width: 20px;
-            height: 20px;
+            width: 1rem;
+            height: 1rem;
             border: solid 1px #111;
             border-radius: 50%;
         }
@@ -68,23 +69,22 @@
         <nav class="contact-info">
             <ul class="social-networks">
                 <li class="contact-link" id="email"><a href="mailto:raphaelkaiquediassantos1@gmail.com"></a></li>
-                <li class="contact-link" id="phone-number"><a href="tel:+5531992867381"></a></li>
-                <li class="contact-link" id="whatsapp"><a href="wa.me/5531992867381"></a></li>
+                <li class="contact-link" id="phone-number"><a href="tel:+5531996653731"></a></li>
+                <li class="contact-link" id="whatsapp"><a href="wa.me/5531996653731"></a></li>
                 <li class="contact-link" id="telegram"><a href="t.me/raphaelkaique1"></a></li>
                 <li class="contact-link" id="linkedin"><a href="https://www.linkedin.com/in/raphaelkaique1/"></a></li>
                 <li class="contact-link" id="replit"><a href="https://replit.com/@raphaelkaique1"></a></li>
                 <li class="contact-link" id="github"><a href="https://github.com/raphaelkaique1"></a></li>
-                <li class="contact-link" id="web-site"><a href="https://raphaelkaique1.github.io/raphaelkaique1/"></a></li>
             </ul>
         </nav>
     </header>
         <main>
         <section id="summary">
-            <h2 id="professional-summary">Resumo Profissional / Professional Summary</h2>
-            <p id="professional-presentation"><strong id="profession">Desenvolvedor Full Stack</strong> <strong id="professional-level"></strong> com <span id="xp"></span> anos de atuação em desenvolvimento de software. Especializado em JavaScript e seu ecossistema (TypeScript, Node.js, Nest.js, React.js, Next.js entre outros). Experiência em projetos complexos, com forte conhecimento em bancos de dados, servidores, APIs, integração de sistemas e arquitetura de software. Habilidade em ambientes colaborativos e metodologias ágeis, buscando sempre inovação e eficiência nos processos com o objetivo de entregar soluções escaláveis em ambientes de alta performance.</p>
+            <h2 id="professional-summary">Resumo Profissional</h2>
+            <p id="professional-presentation"><strong id="profession">Full Stack Developer</strong> <strong id="professional-level"></strong> com <span id="xp"></span> anos de atuação em desenvolvimento de software. Especializado em TypeScript e seu ecossistema. Experiência em projetos complexos, com forte conhecimento em bancos de dados, servidores, APIs, integração de sistemas e arquitetura de software. Habilidade em ambientes colaborativos e metodologias ágeis, buscando sempre inovação e eficiência nos processos com o objetivo de entregar soluções escaláveis em ambientes de alta performance.</p>
         </section>
         <section id="skills">
-            <h2 id="professional-skills">Habilidades / Skills</h2>
+            <h2 id="professional-skills">Habilidades</h2>
     <!--
             <details>
                 <summary>Exemplos</summary>
@@ -222,7 +222,7 @@
         </section>
 
         <section id="languages">
-            <h2 id="spoken-languages">Idiomas / Languages</h2>
+            <h2 id="spoken-languages">Idiomas</h2>
             <article class="level-of-knowledge" id="level-of-knowledge-pt">
                 <h3 id="pt-BR">Português</h3>
                 <div class="levels">
@@ -282,34 +282,34 @@
         </section>
 
         <section class="education">
-            <h2 class="academic-training">Formação Acadêmica / Academic Education</h2>
+            <h2 class="academic-training">Formação Acadêmica</h2>
             <article class="academic-background">
-                <h3 class="degree"><strong class="training">Bacharelado em Ciência da Computação (Full Stack Development)</strong></h3>
-                <p class="formation"><strong class="academy">Centro Universitário União das Américas Descomplica</strong>, conclusão em Junho de 2028.</p>
+                <h3 class="degree"><strong class="training">Bacharelado em Ciência da Computação</strong></h3>
+                <p class="formation"><strong class="academy">UNIAMÉRICA - Centro Universitário União das Américas Descomplica</strong>, conclusão em Junho de 2028.</p>
             </article>
             <article class="academic-background">
-                <h3 class="degree"><strong class="training">Curso Superior de Tecnologia em Mecatrônica Industrial</strong></h3>
-                <p class="formation"><strong class="academy">Universidade Pitágoras Unopar Anhanguera</strong>, concluído em Julho de 2023.</p>
+                <h3 class="degree"><strong class="training">Curso Superior de Tecnologia em DevOps</strong></h3>
+                <p class="formation"><strong class="academy">UNIDERP - Universidade Anhanguera</strong>, concluído em Julho de 2023.</p>
             </article>
             <article class="academic-background">
-                <h3 class="degree"><strong class="training">Técnico em Mecânica Industrial</strong></h3>
-                <p class="formation"><strong class="academy">SENAI Centro de Formação Profissional Eulvado Lodi</strong>, concluído em Abril de 2018.</p>
+                <h3 class="degree"><strong class="training">Curso Técnico em Mecânica Industrial</strong></h3>
+                <p class="formation"><strong class="academy">SENAI - Centro de Formação Profissional Eulvado Lodi</strong>, concluído em Abril de 2018.</p>
             </article>
             <article class="academic-background">
-                <h3 class="degree"><strong class="training">Ensino Médio / High School</strong></h3>
-                <p class="formation"><strong class="academy">Escola Estadual Pedro Américo</strong>, concluído em Dezembro de 2013.</p>
+                <h3 class="degree"><strong class="training">Ensino Médio</strong></h3>
+                <p class="formation"><strong class="academy">EE - Pedro Américo</strong>, concluído em Dezembro de 2013.</p>
             </article>
         </section>
 
         <section id="professional-experiences">
-            <h2 id="professional-experience">Experiência Profissional / Professional Experience</h2>
+            <h2 id="professional-experience">Experiência Profissional</h2>
             <article class="experience">
                 <!--<details>-->
                     <!--<summary>Analista Técnico</summary>-->
                     <h3 class="business-group"><strong class="company-group">Sotreq S/A</strong></h3>
                     <h4 class="group-companie"><strong class="enterprise">SITECH™ Brasil</strong></h4>
                     <h5 class="job-occupation"><strong class="professional-position">Analista Técnico</strong></h5>
-                    <h6 class="working-time"><strong class="period">Novembro/2023 - Presente</strong></h6>
+                    <h6 class="working-time"><strong class="period">Novembro 2023 - Novembro 2024</strong></h6>
                     <p class="job-description"><strong class="responsibilities">Realizar atendimento de campo e remoto a clientes, implementando e testando os sistemas desenvolvidos além de análise diagnóstica para resolução de problemas e serviços de manutenção preventiva e corretiva de software e em hardwares.</strong></p>
                     <ul class="assigned-tasks">
                         <li class="task-description">Desenvolvimento de soluções em C/C++, JavaScript, React, Node, Python, SQL, MySQL, Qt/QML.</li>
@@ -326,7 +326,7 @@
                     <h3 class="business-group"><strong class="company-group">Sotreq S/A</strong></h3>
                     <h4 class="group-companie"><strong class="enterprise">Sotreq | CAT®</strong></h4>
                     <h5 class="job-occupation"><strong class="professional-position">Assistente de Vendas (Back Office)</strong></h5>
-                    <h6 class="working-time"><strong class="period">Setembro/2020 - Novembro/2023</strong></h6>
+                    <h6 class="working-time"><strong class="period">Setembro 2020 - Novembro 2023</strong></h6>
                     <p class="job-description"><strong class="responsibilities">Desenvolvimento de KPIs e dashboards em Power BI e Excel, implementação de ferramentas em VB, ABAP, Python e SQLite para análises comerciais.</strong></p>
                     <ul class="assigned-tasks">
                         <li class="task-description">Desenvolvimento de softwares em VB, ABAP, Python, SQLite como soluções de automação de processos para análises e exploração de dados para alavancagem de vendas.</li>
@@ -341,7 +341,7 @@
                     <h3 class="business-group"><strong class="company-group">Vallourec & Sumitomo S/A</strong></h3>
                     <h4 class="group-companie"><strong class="enterprise">Vallourec Soluções Tubulares do Brasil S/A</strong></h4>
                     <h5 class="job-occupation"><strong class="professional-position">Operador de Produção III</strong></h5>
-                    <h6 class="working-time"><strong class="period">Agosto/2018 - Agosto/2019</strong></h6>
+                    <h6 class="working-time"><strong class="period">Agosto 2018 - Agosto 2019</strong></h6>
                     <p class="job-description"><strong class="responsibilities">Operação e setup de máquinas industriais e análise de desempenho de produtos.</strong></p>
                     <ul class="assigned-tasks">
                         <li class="task-description">Interpretar ordem de fabricação e desenho técnico do produto para operar equipamentos de Controle Numérico Computadorizado utilizando instrumentos de medição e realizar as alterações necessárias em programas para corrigir deficiências e falhas.</li>
@@ -357,7 +357,7 @@
                     <h3 class="business-group"><strong class="company-group">Stellantis S/A</strong></h3>
                     <h4 class="group-companie"><strong class="enterprise">Fiat Chrysler Automobiles PowerTrain LTDA</strong></h4>
                     <h5 class="job-occupation"><strong class="professional-position">Intern</strong></h5>
-                    <h6 class="working-time"><strong class="period">Setembro/2017 - Fevereiro/2018</strong></h6>
+                    <h6 class="working-time"><strong class="period">Setembro 2017 - Fevereiro 2018</strong></h6>
                     <p class="job-description"><strong class="responsibilities">Controle de ordens de serviço e desenvolvimento de protótipos.</strong></p>
                     <ul class="assigned-tasks">
                         <li class="task-description">Acompanhamento de projetos de engenharia do produto e desenvolvimento de protótipos.</li>
@@ -373,7 +373,7 @@
                     <h3 class="business-group"><strong class="company-group">Argo Tractors S.p.A.</strong></h3>
                     <h4 class="group-companie"><strong class="enterprise">Landini Tratores do Brasil LTDA</strong></h4>
                     <h5 class="job-occupation"><strong class="professional-position">Intern</strong></h5>
-                    <h6 class="working-time"><strong class="period">Março/2017 - Agosto/2017</strong></h6>
+                    <h6 class="working-time"><strong class="period">Março 2017 - Agosto 2017</strong></h6>
                     <p class="job-description"><strong class="responsibilities">Montagem e manutenção de máquinas pesadas e desenvolvimento de sistemas de melhoria.</strong></p>
                     <ul class="assigned-tasks">
                         <li class="task-description">Desenvolvimento e implementação do sistema piloto de gestão de estoque.</li>
@@ -387,14 +387,14 @@
 
         <section id="additional-information">
             <article class="other-projects">
-                <!--<details>-->
-                    <!--<summary>Fulltechware</summary>-->
+                <!--<details>
+                    <summary>Fulltechware</summary>
                     <h3 class="job-occupation"><strong class="professional-position">Founder</strong></h3>
                     <h4 class="business-group"><strong class="company-group">Fulltechware SLU</strong></h4>
                     <h5 class="group-companie"><strong class="enterprise">TechN'Logic®</strong></h5>
                     <h6 class="working-time"><strong class="period">Outubro/2024 - Presente</strong></h6>
                     <p class="job-description"><strong class="responsibilities">Desenvolvimento e licenciamento de soluções, sistemas e softwares customizáveis ou não como serviço ou sob encomenda.</strong></p>
-                <!--</details>-->
+                </details>-->
             </article>
         </section>
     </main>
