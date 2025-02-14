@@ -149,3 +149,17 @@ button {
   color: #800080;
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  .projectPreview {
+    border: 1px solid #000;
+    border-radius: 1rem;
+    width: 18rem;
+  }
+}
