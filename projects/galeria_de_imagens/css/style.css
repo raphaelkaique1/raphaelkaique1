@@ -1,0 +1,89 @@
+:root {
+    --white: #fff;
+    --darkGray: #111;
+    --mediumGray: #333;
+    --lightGray: #555;
+    --purple: #c000c0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--fontColor);
+}
+
+html, body {
+    background: var(--bg);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#titulo {
+    text-align: center;
+    padding: 1rem 0;
+    text-shadow: 1rem 0.5rem 1rem var(--shadow);
+}
+
+main {
+    display: flex;
+    overflow-x: auto;
+    width: 100vw;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.imagem {
+    width: 20rem;
+    border-radius: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 1rem 1rem 1rem var(--mediumGray);
+    margin: 2rem 3rem;
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+    box-shadow: 1rem 1rem 1.9rem var(--lightGray);
+}
+
+button {
+    width: 10rem;
+    height: 3rem;
+    color: var(--fontColor);
+    background: var(--bg);
+    box-shadow: 1rem 1rem 1rem var(--shadow);
+    border-radius: 2rem;
+    border: solid 2px var(--fontColor);
+    transition: transform 0.2s ease, box-shadow 0.1s ease;
+    box-shadow: 0.6rem 0.6rem 1rem var(--mediumGray);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 0.2rem 0.2rem 1rem var(--lightGray);
+}
+
+button:hover:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 1rem;
+}
+
+footer {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--darkGray);
+    --shadow: var(--mediumGray);
+}
+
+.dark-theme {
+    --bg: var(--darkGray);
+    --fontColor: var(--white);
+    --shadow: var(--lightGray);
+}

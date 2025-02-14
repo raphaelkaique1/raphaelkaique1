@@ -13,7 +13,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html" style="font-weight: 900;">Contact</a></li>
           </ul>
         </nav>
     </header>
@@ -23,10 +23,13 @@
             <h1>Contact</h1>
             <p>You can contact me using the form below:</p>
             <form action="https://wa.me/5531996653731?text=" method="get" target="_blank">
-              <label for="mensagem">Message:</label>
-              <textarea id="mensagem" name="text" rows="4" cols="50" placeholder="Type here your message."></textarea>
-              <br>
-              <button type="submit">send</button>
+              <fieldset class="formContent">
+                <label for="message">Message:</label>
+                <textarea id="message" name="text" rows="3" cols="50" placeholder="Type here your message." soft>Hi!</textarea>
+              </fieldset>
+              <fieldset class="formButton">
+                <button type="submit">send</button>
+              </fieldset>
             </form>
           </div>
         </section>

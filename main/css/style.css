@@ -25,14 +25,14 @@ nav ul {
   justify-content: center;
 }
 
-nav ul li {
-  /* display: inline; */
-  margin: 0 1rem;
-}
-
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  padding: 1rem 3rem;
+}
+
+nav ul li a:hover {
+  background-color: #555;
 }
 
 main {
@@ -62,7 +62,17 @@ form label {
 
 form textarea {
   width: 100%;
-  max-width: 500px;
+  resize: none;
+}
+
+fieldset {
+  border: none;
+  width: 100%;
+}
+
+.formButton {
+  display: inline-block;
+  text-align: center;
 }
 
 /* sections layouts */
@@ -84,4 +94,58 @@ section {
   text-align: center;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* other layouts */
+button {
+  display: inline;
+  cursor: pointer;
+  margin: 0.8rem 0;
+  width: 5rem;
+  height: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+#profileImage {
+  width: 9.375rem;
+  border-radius: 50%;
+}
+
+.projetcItem {
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  padding: 0.5rem 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projetcItem:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 1rem 1rem 1.9rem rgba(0, 0, 0, 0.5);
+}
+
+.projectPreview {
+  border: 1px solid #000;
+  border-radius: 1rem;
+  width: 28rem;
+}
+
+#download a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+  padding: 0.5rem;
+  width: 3rem;
+}
+
+#download a:hover {
+  text-decoration: underline;
+}
+
+#download a:hover:active {
+  color: #800080;
+  text-decoration: underline;
 }
