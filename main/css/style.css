@@ -151,6 +151,11 @@ button {
 }
 
 @media (max-width: 600px) {
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
   nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -160,6 +165,6 @@ button {
   .projectPreview {
     border: 1px solid #000;
     border-radius: 1rem;
-    width: 18rem;
+    max-width: 10rem;
   }
 }
