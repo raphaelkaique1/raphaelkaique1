@@ -115,3 +115,11 @@ footer {
     --fontColor: var(--white);
     --shadow: var(--lightGray);
 }
+
+@media (max-width: 600px) {
+    #back {
+        position: relative;
+        left: 1rem;
+        top: -1rem;
+    }
+}
