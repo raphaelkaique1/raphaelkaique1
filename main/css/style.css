@@ -23,16 +23,16 @@ nav ul {
   text-align: center;
   display: flex;
   justify-content: center;
-}
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 1rem 3rem;
-}
+  li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 3rem;
 
-nav ul li a:hover {
-  background-color: #555;
+    &:hover {
+      background-color: #555;
+    }
+  }
 }
 
 main {
@@ -53,16 +53,16 @@ footer {
 form {
   display: inline-block;
   text-align: left;
-}
 
-form label {
-  display: block;
-  margin-top: 10px;
-}
+  label {
+    display: block;
+    margin-top: 10px;
+  }
 
-form textarea {
-  width: 100%;
-  resize: none;
+  textarea {
+    width: 100%;
+    resize: none;
+  }
 }
 
 fieldset {
@@ -119,12 +119,12 @@ button {
   width: fit-content;
   padding: 0.5rem 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.projetcItem:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  box-shadow: 1rem 1rem 1.9rem rgba(0, 0, 0, 0.5);
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 1rem 1rem 1.9rem rgba(0, 0, 0, 0.5);
+  }
 }
 
 .projectPreview {
@@ -139,27 +139,27 @@ button {
   font-weight: 900;
   padding: 0.5rem;
   width: 3rem;
-}
 
-#download a:hover {
-  text-decoration: underline;
-}
+  &:hover {
+    text-decoration: underline;
+  }
 
-#download a:hover:active {
-  color: #800080;
-  text-decoration: underline;
+  &:active {
+    color: #800080;
+    text-decoration: underline;
+  }
 }
 
 @media (max-width: 600px) {
   nav ul {
     display: flex;
     justify-content: space-around;
-  }
 
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0;
+    li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0;
+    }
   }
 
   .projectPreview {
