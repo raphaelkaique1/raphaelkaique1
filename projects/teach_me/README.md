@@ -27,7 +27,7 @@ projects/
 │   └── README.md
 ```
 
-![Image](https://github.com/user-attachments/assets/edc38ca8-e1a5-4f36-98a1-977baa698d4b)
+![Image](https://github.com/user-attachments/assets/5b4102ba-f6ae-491e-8067-273f8e61969f)
 
 ---
 
