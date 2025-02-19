@@ -3,6 +3,7 @@
 🔬 Specialized in TypeScript and its ecosystem: JavaScript, Node.js, Express.js, Nest.js, React.js, Vue.js, Angular.js, Next.js between others.<br>
 ⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>
 🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
+
 ```TS
 class Person {
     name: string;
