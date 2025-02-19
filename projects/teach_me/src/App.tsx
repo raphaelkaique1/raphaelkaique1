@@ -1,4 +1,4 @@
-import { useState, CSSProperties } from "react";
+import { useState } from "react";
 import { ItemSuggestion } from "./components/ItemSuggestion";
 import { getHistoric, setHistoric } from "./storage/historic";
 import { sendMessage } from "./api/openai";
