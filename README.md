@@ -1,6 +1,6 @@
 # 💫 About Me:
 🛠️ Working in software development since 2020.<br>
-🔬 Specialized in TypeScript and its ecosystem (JavaScript, Node.js, Express.js, Nest.js, React.js, Vue.js, Angular.js, Next.js, among others).<br>
+🔬 Specialized in TypeScript and its ecosystem: JavaScript, Node.js, Express.js, Nest.js, React.js, Vue.js, Angular.js, Next.js between others.<br>
 ⚡ Experience in complex projects, with strong knowledge of databases, servers, APIs, systems integration and software architecture.<br>
 🧳 Skilled in collaborative environments and agile methodologies, always seeking innovation and efficiency in processes with the objective of delivering scalable solutions in high-performance environments.
 ```TS
@@ -22,11 +22,13 @@ class Person {
     }
 
     eat(): void {
-        console.log(`Drink ${this.food}`);
+        console.log(`drink ${this.food}`);
     }
 
     sleep(): void {
-        console.log(`Rest for ${this.time} hours`);
+        setTimeout(() => {
+            console.log(`just sleep a little`);
+        }, this.time * 3600000);
     }
 
     code(): void {
@@ -34,7 +36,7 @@ class Person {
     }
 
     repeat(): void {
-        let consequences = { xp: 2, bad: "Learn from mistakes", good: "Ready for more" };
+        let consequences = { xp: 2, bad: "learn from mistakes", good: "ready for more" };
         this.regreat === false ? consequences.xp++ : consequences.xp--;
 
         switch (consequences.xp) {
