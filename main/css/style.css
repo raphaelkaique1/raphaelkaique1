@@ -1,4 +1,10 @@
 /* general */
+
+html {
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
 * {
   font-family: Arial, sans-serif;
 }
@@ -15,26 +21,6 @@ header {
   color: #fff;
   padding: 1rem 0;
   box-shadow: 0 0 0.5rem #333;
-}
-
-#home {
-  margin: 1rem auto;
-
-  .presentation {
-    height: 5.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-weight: 400;
-    resize: none;
-    border: 0;
-    width: 70%;
-    margin: 1% auto;
-    padding: 1rem;
-    background-color: transparent;
-  }
-
 }
 
 #dev {
@@ -283,6 +269,21 @@ button {
   }
 }
 
+#about .presentation {
+  height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 400;
+  resize: none;
+  border: 0;
+  width: 70%;
+  margin: 1% auto;
+  padding: 1rem;
+  background-color: transparent;
+}
+
 #about ul {
   width: 70%;
   margin: 0 auto;
@@ -312,4 +313,46 @@ button {
     border-radius: 1rem;
     max-width: 10rem;
   }
+}
+
+#button-container {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #toggle-lang {
+    height: max-content;
+    width: max-content;
+    background: transparent;
+    border: 0;
+  }
+}
+
+.images {
+  width: 3rem;
+  margin: 0 20px;
+}
+
+.carousel-container {
+  width: 500%;
+  overflow: hidden;
+  padding: 1rem 0;
+  overflow: hidden;
+  
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll 60s linear infinite;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
 }
