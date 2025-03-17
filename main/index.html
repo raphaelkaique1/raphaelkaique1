@@ -1,3 +1,94 @@
+<!-- 
+Para criar um botão que alterna a língua da sua página entre **inglês** e **português** e mantém a escolha do usuário mesmo após recarregar ou trocar de página, você pode usar **JavaScript** e armazenar a opção no **localStorage**.
+
+## **Passo a Passo**
+1. **Criar um botão para alternar o idioma**
+2. **Definir o conteúdo da página em dois idiomas**
+3. **Salvar a escolha do usuário no `localStorage`**
+4. **Ao carregar a página, aplicar o idioma salvo**
+
+---
+
+## **Exemplo de Código**
+
+### **1. Estrutura HTML**
+```html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiIdioma</title>
+</head>
+<body>
+
+    <button id="toggle-lang">🇧🇷 Mudar para Inglês</button>
+
+    <h1 id="title">Olá, Mundo!</h1>
+    <p id="description">Este é um exemplo de tradução dinâmica com JavaScript.</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
+
+---
+
+### **2. Código JavaScript (arquivo `script.js`)**
+```js
+// Dicionário de Tradução
+const translations = {
+    en: {
+        title: "Hello, World!",
+        description: "This is an example of dynamic translation with JavaScript.",
+        button: "🇺🇸"
+    },
+    pt: {
+        title: "Olá, Mundo!",
+        description: "Este é um exemplo de tradução dinâmica com JavaScript.",
+        button: "🇧🇷"
+    }
+};
+
+// Função para alterar o idioma
+function changeLanguage(lang) {
+    document.getElementById("title").textContent = translations[lang].title;
+    document.getElementById("description").textContent = translations[lang].description;
+    document.getElementById("toggle-lang").textContent = translations[lang].button;
+
+    // Salva o idioma no localStorage
+    localStorage.setItem("selectedLanguage", lang);
+}
+
+// Detecta a escolha do usuário ao carregar a página
+document.addEventListener("DOMContentLoaded", () => {
+    const savedLanguage = localStorage.getItem("selectedLanguage") || "pt";
+    changeLanguage(savedLanguage);
+});
+
+// Adiciona evento ao botão para alternar idiomas
+document.getElementById("toggle-lang").addEventListener("click", () => {
+    const currentLanguage = localStorage.getItem("selectedLanguage") || "pt";
+    const newLanguage = currentLanguage === "pt" ? "en" : "pt";
+    changeLanguage(newLanguage);
+});
+```
+
+---
+
+## **Como Funciona?**
+1. **Dicionário de Tradução** → Criamos um objeto `translations` com textos em inglês (`en`) e português (`pt`).
+2. **Função `changeLanguage(lang)`** → Atualiza os textos na página e salva o idioma no `localStorage`.
+3. **Ao carregar a página** → O JavaScript verifica se há um idioma salvo no `localStorage` e aplica automaticamente.
+4. **Botão de troca de idioma** → Alterna entre `pt` e `en` ao clicar, atualizando o conteúdo e armazenando a nova escolha.
+
+---
+
+## **Bônus**
+Se quiser traduzir mais elementos, basta adicioná-los ao **dicionário de tradução** e referenciá-los no JavaScript.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
