@@ -142,9 +142,9 @@ dev.life();
 
 ## 💰 You can help me by Donating
 [![PIX](https://img.shields.io/badge/PIX-%2323d968.svg?&logo=pix&logoColor=white)](https://nubank.com.br/cobrar/j3p0m/6706a02c-1f43-4689-a177-3227dc884630)
-[![Tether](https://img.shields.io/badge/USDT-%2323d968.svg?&logo=tether&logoColor=white)](https://github.com/user-attachments/assets/a1b94d92-58da-45fe-9d2e-20ceaec981ae)
-[![Ethereum](https://img.shields.io/badge/ETH-%23111.svg?&logo=ethereum&logoColor=white)](https://github.com/user-attachments/assets/85129e20-8c7f-4e4b-9776-3df71bfb7eff)
-[![₿itcoin](https://img.shields.io/badge/₿TC-%23fa8d11.svg?&logo=bitcoin&logoColor=white)](https://github.com/user-attachments/assets/020f7cb3-70b1-4192-b1d9-1c153c636911)
+[![Tether](https://img.shields.io/badge/USDT-%2323d968.svg?&logo=tether&logoColor=white)]()
+[![Ethereum](https://img.shields.io/badge/ETH-%23111.svg?&logo=ethereum&logoColor=white)]()
+[![₿itcoin](https://img.shields.io/badge/₿TC-%23fa8d11.svg?&logo=bitcoin&logoColor=white)]()
 
 ---
 
