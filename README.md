@@ -5,7 +5,7 @@
 
 <div align="center" >
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,gitlab,regex,latex,bash,md,linux,arch,debian,ubuntu,powershell,windows,arduino,raspberrypi,c,cmake,gtk,cpp,qt,cs,dotnet,py,flask,django,anaconda,selenium,fastapi,java,spring,php,laravel,go,ruby,js,ts,nodejs,express,nest,sqlite,mysql,mongodb,vim,neovim,vscodium,vscode,androidstudio"/>
+    <img src="https://skillicons.dev/icons?i=git,github,gitlab,md,regex,latex,bash,linux,arch,debian,ubuntu,powershell,windows,arduino,raspberrypi,c,cmake,gtk,cpp,qt,cs,dotnet,py,flask,django,anaconda,selenium,fastapi,java,spring,php,laravel,go,ruby,js,ts,nodejs,express,nest,sqlite,mysql,mongodb,vim,neovim,vscodium,vscode,androidstudio"/>
   </a>
   <br/>
 </div>
