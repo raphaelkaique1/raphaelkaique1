@@ -39,6 +39,35 @@ img {
     }
 }
 
+#download {
+    margin-top: 5rem;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    color: #fff;
+    font-size: large;
+    font-weight: 900;
+    padding: .5rem;
+    background-color: #111;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        animation-play-state: paused;
+        background-color: #fff;
+        color: #000
+    }
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+
 footer {
     display: flex;
     flex-direction: row;
@@ -51,4 +80,9 @@ footer {
         font-weight: 900;
         color: #80ff00;
     }
+}
+
+::selection {
+    background-color: #80ff00;
+    color: #fff;
 }
