@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
+:root {
+    --dark-green: #25d366;
+    --light-green: #80ff00;
+    --blue: #0077b5;
+    --white: #fff;
+    --high-dark: #000;
+    --medium-dark: #111;
+    --low-dark: #1a1a1a;
+}
+
 body {
-    font-family: "Orbitron", sans-serif;
-    color: #fff;
-    background: #1a1a1a;
+    font-family: "Orbitron", monospace, sans-serif;
+    color: var(--white);
+    background: var(--low-dark);
     text-align: center;
 }
 
@@ -32,11 +42,23 @@ h2 {
 img {
     width: 3rem;
     transform: translateY(1rem);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, filter 0.3s ease;
 
     &:hover {
         transform: translateY(.25rem);
     }
+}
+
+#wpp:hover {
+    filter: drop-shadow(0 0 5px var(--dark-green));
+}
+
+#li:hover {
+    filter: drop-shadow(0 0 5px var(--blue));
+}
+
+#gh:hover {
+    filter: drop-shadow(0 0 5px var(--high-dark));
 }
 
 #download {
@@ -44,14 +66,13 @@ img {
     width: fit-content;
     height: fit-content;
     cursor: pointer;
-    color: #fff;
+    color: var(--white);
     font-size: large;
     font-weight: 900;
     padding: .5rem;
     background-color: #111;
     border: solid 1px #fff;
     border-radius: 10px;
-    animation: float 3s ease-in-out infinite;
     transition: background-color 0.3s ease;
 
     &:hover {
@@ -60,13 +81,6 @@ img {
         color: #000
     }
 }
-
-@keyframes float {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-5px); }
-  100% { transform: translateY(0); }
-}
-
 
 footer {
     display: flex;
@@ -85,4 +99,17 @@ footer {
 ::selection {
     background-color: #80ff00;
     color: #fff;
+}
+
+@media (max-width: 765px) {
+    h2 {
+        text-wrap: wrap;
+        line-height: 2rem;
+    }
+    
+    footer {
+        flex-direction: column;
+        text-wrap: wrap;
+        line-height: 1.25rem;
+    }
 }
