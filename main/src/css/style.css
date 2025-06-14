@@ -17,10 +17,6 @@ body {
     text-align: center;
 }
 
-main {
-    position: static;
-}
-
 .container {
     width: 100%;
     height: 90vh;
@@ -83,6 +79,8 @@ img {
 }
 
 footer {
+    width: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -102,11 +100,16 @@ footer {
 }
 
 @media (max-width: 765px) {
+    .container {
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
     h2 {
         text-wrap: wrap;
         line-height: 2rem;
     }
-    
+
     footer {
         flex-direction: column;
         text-wrap: wrap;
