@@ -51,6 +51,18 @@ body {
     flex-direction: row;
 }
 
+#language {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 .1rem .3rem;
+
+    .language {
+        padding: 0 .3rem;
+    }
+}
+
 #bio-container {
     flex: 1 1 20%;
     min-height: 95vh;
@@ -61,18 +73,6 @@ body {
 
     h2, p, #profile-picture {
         margin-bottom: 1.25rem;
-    }
-
-    #language {
-        height: fit-content;
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        margin: 0 .1rem .3rem;
-
-        .language {
-            padding: 0 .3rem;
-        }
     }
 
     #profile-picture {
@@ -118,6 +118,15 @@ body {
     .description {
         width: 100%;
         margin-bottom: .8rem;
+    }
+
+    #JS {
+        background-color: var(--light-green);
+        color: var(--medium-dark);
+
+        &::selection {
+            background-color: var(--white);
+        }
     }
 
     #download {
