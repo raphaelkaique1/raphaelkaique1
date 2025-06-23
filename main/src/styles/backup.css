@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root {
+    --dark-green: #25d366;
+    --light-green: #80ff00;
+    --blue: #0077b5;
+    --white: #fff;
+    --high-dark: #000;
+    --medium-dark: #111;
+    --low-dark: #1a1a1a;
+}
+
+body {
+    font-family: "Orbitron", monospace, sans-serif;
+    color: var(--white);
+    background: var(--low-dark);
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 1px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    text-wrap: nowrap;
+}
+
+img {
+    width: 3rem;
+    transform: translateY(1rem);
+    transition: transform 0.3s ease;/*, filter 0.3s ease; */
+
+    &:hover {
+        transform: translateY(.25rem);
+    }
+}
+
+/* #wpp:hover {
+    filter: drop-shadow(0 0 5px var(--dark-green));
+}
+
+#li:hover {
+    filter: drop-shadow(0 0 5px var(--blue));
+}
+
+#gh:hover {
+    filter: drop-shadow(0 0 5px var(--high-dark));
+} */
+
+#download {
+    margin-top: 5rem;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    color: var(--white);
+    font-size: large;
+    font-weight: 900;
+    padding: .5rem;
+    background-color: #111;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        animation-play-state: paused;
+        background-color: #fff;
+        color: #000
+    }
+}
+
+footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    line-height: 1px;
+    column-gap: .5rem;
+    justify-content: center;
+
+    a {
+        font-weight: 900;
+        color: #80ff00;
+    }
+}
+
+::selection {
+    background-color: #80ff00;
+    color: #fff;
+}
+
+@media (max-width: 765px) {
+    .container {
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    h2 {
+        text-wrap: wrap;
+        line-height: 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-wrap: wrap;
+        line-height: 1.25rem;
+    }
+}
