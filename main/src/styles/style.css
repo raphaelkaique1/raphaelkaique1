@@ -26,6 +26,10 @@
 .highlight {
     font-weight: 900;
     color: var(--dark-green);
+
+    &::selection {
+        background-color: var(--white);
+    }
 }
 
 body {
@@ -120,13 +124,13 @@ body {
         margin-bottom: .8rem;
     }
 
-    #JS {
-        background-color: var(--light-green);
-        color: var(--medium-dark);
+    #div-bar::before {
+        content: "|";
+    }
 
-        &::selection {
-            background-color: var(--white);
-        }
+    #JS {
+        background-color: var(--white);
+        color: var(--medium-dark);
     }
 
     #download {
@@ -226,11 +230,23 @@ footer {
     #about-container {
         text-align: center;
         padding: 1rem .8rem;
+        
+        #name {
+            font-size: x-large;
+            margin-bottom: .2rem;
+        }
 
         .description {
             margin: .8rem auto;
             max-width: 100%;
             line-height: 1.3rem;
+        }
+
+        #div-bar {
+            display: block;
+            &::before {
+                content: none;
+            }
         }
 
         #download {
