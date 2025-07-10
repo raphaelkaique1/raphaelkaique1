@@ -224,6 +224,7 @@ footer {
         p {
             max-width: 80%;
             margin: 1rem auto;
+            font-size: .9rem;
         }
     }
 
@@ -234,6 +235,10 @@ footer {
         #name {
             font-size: x-large;
             margin-bottom: .2rem;
+        }
+
+        #title {
+            font-size: .9rem;
         }
 
         .description {
