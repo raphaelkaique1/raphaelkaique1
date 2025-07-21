@@ -13,6 +13,7 @@
     --light-green: #80ff00;
     --blue: #0077b5;
     --white: #fff;
+    --light-gray: #f3f3f3;
     --high-dark: #000;
     --medium-dark: #111;
     --low-dark: #1a1a1a;
@@ -22,6 +23,38 @@
     background-color: var(--light-green);
     color: var(--high-dark);
 }
+
+/* preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--low-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: .5px solid var(--light-gray);
+  border-top: .5px solid var(--dark-green);
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 3.75rem;
+  animation: spin 1s linear infinite;
+  margin-bottom: .625rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* --- */
 
 .highlight {
     font-weight: 900;
